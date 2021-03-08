@@ -1,0 +1,12 @@
+{
+    "plugins": [
+        "cypress",
+        "chai-friendly"
+    ],
+    "extends": [
+        "react-app",
+        "react-app/jest",
+        "plugin:cypress/recommended",
+        "plugin:chai-friendly/recommended"
+    ]
+}
