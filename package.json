@@ -39,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "@cypress/skip-test": "^2.6.0",
     "babel-cli": "^6.26.0",
     "babel-preset-latest": "^6.24.1",
     "cypress": "^6.6.0",
