@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-import { skipOn, onlyOn } from "@cypress/skip-test";
+import { skipOn } from "@cypress/skip-test";
 
 describe("My First Test", () => {
   it("searches for 444 without logging in advance", () => {
@@ -26,7 +26,7 @@ describe("My First Test", () => {
     cy.contains("Bad credentials");
   });
 
-  onlyOn(false, () => {
+  skipOn(true, () => {
     it("logs and searches for 444", () => {
       const userName = "xxx";
       const password = "xxx";
