@@ -21,6 +21,7 @@ describe("Stubbed tests", () => {
 
             // when
             cy.visit("https://adrhc.go.ro/pictures");
+            // cy.pause();
             // then
             cy.url().should("include", "/#/albums");
 
