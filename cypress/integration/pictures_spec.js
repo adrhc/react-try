@@ -19,9 +19,9 @@ describe("Stubbed tests", () => {
               search444
             ).as("searching for 444");
 
+            // cy.pause();
             // when
             cy.visit("https://adrhc.go.ro/pictures");
-            // cy.pause();
             // then
             cy.url().should("include", "/#/albums");
 
