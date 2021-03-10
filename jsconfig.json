@@ -1,25 +1,12 @@
 {
-    "compilerOptions": {
-        "target": "es6",
-        "baseUrl": ".",
-        "paths": {
-            "/*": [
-                "./src/*"
-            ],
-            "~*": [
-                "./src/*"
-            ]
-        }
-    },
-    "exclude": [
-        "node_modules",
-        ".idea",
-        "build",
-        "coverage",
-        "dist"
-    ],
-    "include": [
-        "./node_modules/cypress",
-        "cypress/**/*.js"
-    ]
+  "compilerOptions": {
+    "target": "es6",
+    "baseUrl": ".",
+    "paths": {
+      "/*": ["./src/*"],
+      "~*": ["./src/*"]
+    }
+  },
+  "exclude": ["node_modules", ".idea", "build", "coverage", "dist"],
+  "include": ["./node_modules/cypress", "cypress/**/*.js"]
 }
