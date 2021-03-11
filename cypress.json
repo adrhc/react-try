@@ -1,6 +1,6 @@
 {
     "$schema": "https://on.cypress.io/cypress.schema.json",
     "video": false,
-    "viewportWidth": 1024,
+    "viewportWidth": 1366,
     "viewportHeight": 768
 }
